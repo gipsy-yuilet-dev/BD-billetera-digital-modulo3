@@ -1,4 +1,4 @@
-# Alke Wallet Database
+ # Alke Wallet Database
 
 Base de datos relacional para la billetera digital **Alke Wallet**, diseñada sobre MySQL 8.4 con foco en integridad, trazabilidad y consultas analíticas básicas.
 
@@ -16,8 +16,7 @@ Base de datos relacional para la billetera digital **Alke Wallet**, diseñada so
 ```
 database/
 ├── scripts/
-│   ├── billetera_digital.sql          # Script maestro (DDL + DML + consultas)
-│   ├── walletDB01.sql                 # Variante equivalente con misma nomenclatura
+│   ├── billetera_digital.sql          # Script maestro (DDL + DML + consulta
 │   ├── consultas_billetera_digital.sql# Consultas de la lección 2
 │   ├── generar_doc_sentencias.py      # Genera el Word con todas las sentencias
 │   └── sentencias_alke_wallet.docx    # Bitácora de sentencias (autoactualizable)
